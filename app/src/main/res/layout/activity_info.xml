@@ -72,8 +72,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:layout_weight="8"
+            android:layout_weight=""
             android:background="#ffffff"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/mic"
+            android:foreground="?attr/selectableItemBackground"/>
 
         <ImageView
             android:id="@+id/submit"
@@ -89,6 +97,7 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
         tools:listitem="@layout/row_info"/>
 
 </LinearLayout>
