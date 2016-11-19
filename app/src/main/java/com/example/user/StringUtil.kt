@@ -13,6 +13,7 @@ class StringUtil{
             var tmp : String = str;
             
             if (tmp == null) return "12가3763";
+            tmp = tmp.replace(" ", "")
             tmp = tmp.replace("십이", "12");
             tmp = tmp.replace("시비", "12");
             tmp = tmp.replace("집에", "11");
