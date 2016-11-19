@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/number"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:id="@+id/tv_CarNumber"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:textCursorDrawable="@null"
+
+        />
+
+    <ImageView
+        android:id="@+id/submit"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_CarNumber"
+        android:layout_centerInParent="true"
+        android:background="@drawable/chase"
+        android:layout_marginTop="15dp"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+
+</RelativeLayout>

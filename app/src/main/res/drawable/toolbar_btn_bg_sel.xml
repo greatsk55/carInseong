@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/button_bg_sel"/>
+    <size android:width="@dimen/toolbar_button_size" android:height="@dimen/toolbar_button_size"/>
+    <corners android:radius="20dp"/>
+</shape>
