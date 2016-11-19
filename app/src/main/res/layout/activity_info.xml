@@ -72,10 +72,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:layout_weight=""
+            android:layout_weight="7"
             android:background="#ffffff"/>
 
         <ImageView
+            android:id="@+id/mic"
             android:layout_width="0dp"
             android:layout_height="15dp"
             android:layout_gravity="center"
