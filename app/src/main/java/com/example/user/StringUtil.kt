@@ -15,6 +15,9 @@ class StringUtil{
             if (tmp == null) return "12가3763";
             tmp = tmp.replace(" ", "")
             tmp = tmp.replace("십이", "12");
+            tmp = tmp.replace("시리", "12");
+            tmp = tmp.replace("시기", "12");
+            tmp = tmp.replace("십리", "12");
             tmp = tmp.replace("시비", "12");
             tmp = tmp.replace("집에", "11");
             tmp = tmp.replace("십일", "11");
