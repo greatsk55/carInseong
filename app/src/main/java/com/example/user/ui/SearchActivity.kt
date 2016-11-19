@@ -24,6 +24,7 @@ class SearchActivity : AppCompatActivity() {
     }
 
     val mic by lazy{
+
         findViewById(R.id.mic) as ImageView
     }
 
@@ -61,7 +62,7 @@ class SearchActivity : AppCompatActivity() {
                         return ;
                     }
 
-                    num.setText(StringUtil.StringReplace(result[0].trim()))
+                    num.setText(StringUtil.StringReplace(result[0]).trim())
 
 
                 }
